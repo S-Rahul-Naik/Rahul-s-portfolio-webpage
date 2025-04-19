@@ -1,0 +1,90 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #108f56;
+  padding: 20px 50px;
+  color: #fff;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.logo span {
+  color: #ffa500;
+}
+
+.navigation a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+}
+
+.blog-content {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.blog-content h1 {
+  font-size: 2.2rem;
+  color: #333;
+  margin-bottom: 20px;
+  border-left: 5px solid #7d2ae8;
+  padding-left: 15px;
+}
+
+.blog-content p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.back-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #7d2ae8;
+  padding: 10px 20px;
+  border-radius: 6px;
+  margin-top: 30px;
+  transition: 0.3s;
+}
+
+.back-btn:hover {
+  background-color: #5a1ed0;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navigation {
+    margin-top: 10px;
+  }
+
+  .blog-content h1 {
+    font-size: 1.6rem;
+  }
+
+  .blog-content p {
+    font-size: 1rem;
+  }
+}
